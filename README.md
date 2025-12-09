@@ -1,3 +1,5 @@
+Check out the live website for this project here 👉 https://text-intel-engine.netlify.app/
+
 🧠 TextIntel: Intelligent Text Prediction & Analysis Engine
 TextIntel is an advanced word-processing engine designed to analyze, predict, and relate words using classic Data Structures and Algorithms. It combines multiple intelligent components like Trie-based autocomplete, bigram prediction, Red-Black Tree search, and graph-based word relationships to provide rich linguistic insights and fast text predictions.
 
