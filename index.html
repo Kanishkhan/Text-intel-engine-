@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Intelligence Engine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="app-header">
+    <div class="logo-circle">TX</div>
+    <div>
+      <h1>Text Intelligence Engine</h1>
+      <p>Trie + Bigram + Word Graph based conversational analytics</p>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <!-- Left: Chat -->
+    <section class="chat-section">
+      <div id="chatBox" class="chat-box"></div>
+
+      <div class="input-bar">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Type a message and press Enter..."
+          autocomplete="off"
+        />
+        <button id="sendBtn">Send</button>
+      </div>
+    </section>
+
+    <!-- Right: Analytics -->
+    <section class="analytics-section">
+      <h2>Engine Insights</h2>
+
+      <div class="analytics-grid">
+        <div class="card">
+          <h3>Top Words</h3>
+          <div id="topWords" class="pill-container empty">No data yet</div>
+        </div>
+
+        <div class="card">
+          <h3>Suggestions (Prefix)</h3>
+          <p class="card-sub" id="lastPrefixLabel">Last word: —</p>
+          <div id="suggestions" class="pill-container empty">No suggestions</div>
+        </div>
+
+        <div class="card">
+          <h3>Next Word Prediction</h3>
+          <div id="nextWord" class="prediction-box">—</div>
+        </div>
+
+        <div class="card wide">
+          <h3>Related Words (Graph)</h3>
+          <p class="card-sub" id="relatedLabel">From last word: —</p>
+          <div id="relatedWords" class="pill-container empty">No relations yet</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <span>Built with Trie · Bigram Model · Word Graph</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
