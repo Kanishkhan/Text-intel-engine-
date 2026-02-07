@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Check out the live website for this project here 👉 https://text-intel-engine.netlify.app/
 
 🧠 TextIntel: Intelligent Text Prediction & Analysis Engine
@@ -76,3 +77,50 @@ It serves as a simple but effective test case for understanding how the componen
 
 ![image](https://github.com/user-attachments/assets/67d2f505-e45a-4b7a-9642-263ef178980a)
 
+=======
+# Text Intel Engine 🧠
+
+A powerful, client-side text analysis tool that extracts insights from your conversations in real-time. Built with vanilla JavaScript, this engine utilizes advanced data structures like **Tries**, **Bigrams**, and **Word Graphs** to provide immediate feedback on your writing patterns.
+
+![Project Preview](https://via.placeholder.com/800x400?text=Text+Intelligence+Engine+Preview)
+
+## 🚀 Features
+
+*   **Real-time Analytics**: See analysis update instantly as you type and send messages.
+*   **Next Word Prediction**: Uses a Bigram model to predict the most likely next word based on your input history.
+*   **Prefix Autocompletion**: Offers word suggestions based on the current prefix using an efficient Trie data structure.
+*   **Word Graph Visualization**: Displays related words and successors to understand the flow of your text.
+*   **Top Word Frequency**: Tracks and displays the most frequently used words in your session.
+*   **Privacy Focused**: All processing happens 100% in your browser. No data is sent to any server.
+
+## 🛠️ How It Works
+
+The engine is powered by three core components:
+
+1.  **Trie (Prefix Tree)**: Efficiently stores words to allow for fast prefix-based lookups and autocompletion suggestions.
+2.  **Bigram Model**: Analyzes pairs of consecutive words to calculate probabilities and predict the next likely word.
+3.  **Word Graph**: Maps relationships between words, showing which words tend to follow others, providing a graph-based view of your text flow.
+
+## 💻 Tech Stack
+
+*   **HTML5**: Semantic structure.
+*   **CSS3**: Modern, responsive styling with a clean aesthetic.
+*   **JavaScript (ES6+)**: Core logic, data structures, and DOM manipulation.
+
+## 🏁 Getting Started
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/Kanishkhan/Text-intel-engine-.git
+    ```
+2.  Open `index.html` in your web browser.
+3.  Start typing in the chat box to see the engine in action!
+
+## 📸 Screenshots
+
+*(Add screenshots here if available)*
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the engine or add new analytics features.
+>>>>>>> 8e5a867 (Initial commit: Add project files and updated README)
