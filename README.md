@@ -2,7 +2,6 @@
 
 A powerful, client-side text analysis tool that extracts insights from your conversations in real-time. Built with vanilla JavaScript, this engine utilizes advanced data structures like **Tries**, **Bigrams**, and **Word Graphs** to provide immediate feedback on your writing patterns.
 
-![Project Preview](https://via.placeholder.com/800x400?text=Text+Intelligence+Engine+Preview)
 
 👉 **Live Demo:** [https://text-intel-engine.netlify.app/](https://text-intel-engine.netlify.app/)
 
